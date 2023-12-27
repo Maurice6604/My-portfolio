@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maurice Maina Mwaura - Portfolio</title>
+    <style>
+        /* Your existing styles remain unchanged */
+
+        /* Additional styles for interactivity */
+        button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Maurice Maina Mwaura</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p id="intro">Write a brief introduction about yourself here.</p>
+        <button onclick="toggleIntro()">Toggle Introduction</button>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>Project 1</h3>
+                <p>Description of project 1.</p>
+            </li>
+            <li>
+                <h3>Project 2</h3>
+                <p>Description of project 2.</p>
+            </li>
+            <!-- Add more projects as needed -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>Email: <a href="mailto:mmwayra6604@gmail.com">mmwayra6604@gmail.com</a></p>
+        <p>Phone: <a href="tel:+254798828260">+254798828260</a></p>
+    </footer>
+
+    <script>
+        function toggleIntro() {
+            var introParagraph = document.getElementById('intro');
+            introParagraph.style.display = (introParagraph.style.display === 'none' || introParagraph.style.display === '') ? 'block' : 'none';
+        }
+    </script>
+
+</body>
+
+</html>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+    }
+
+    header {
+        background-color: #002;
+        color: white;
+        text-align: center;
+        padding: 1em;
+    }
+
+    section {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    h1, h2, h3 {
+        color: #333;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 1em;
+        background-color: #333;
+        color: white;
+        border-top: 2px solid white;
+    }
+
+    a {
+        color: #007BFF;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
